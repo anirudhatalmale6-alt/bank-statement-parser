@@ -1,0 +1,6 @@
+severity,category,source_file,page,line,message,raw_line
+warning,sign_unknown,sample_plain_no_header.pdf,1,3,"No debit/credit marker, column or balance movement to decide the sign; stored exactly as printed","02 Apr 2025 SALARY CREDIT NORTHWIND LTD 2,750.00 3,020.11"
+info,opening_balance,sample_uk_debit_credit.pdf,1,7,Opening balance taken as 2450.00,"01/03/2025 Balance brought forward 2,450.00"
+info,summary_line,sample_uk_debit_credit.pdf,2,12,Ignored totals/closing line,"Closing balance 2,084.49"
+info,opening_balance,sample_us_signed.pdf,1,6,Opening balance taken as 5120.44,"03/01/2025 Beginning balance $5,120.44"
+info,summary_line,sample_us_signed.pdf,1,16,Ignored totals/closing line,"Ending balance $5,920.98"

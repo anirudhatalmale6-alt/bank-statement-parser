@@ -1,0 +1,6 @@
+# Runtime
+pdfplumber>=0.10        # PDF text extraction with word positions
+
+# Development only (sample statement generation + tests)
+reportlab>=4.0
+pytest>=7.0
